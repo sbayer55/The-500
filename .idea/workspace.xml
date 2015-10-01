@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9477c378-5665-4068-977c-e37a7133bb9d" name="Default" comment="" />
+    <list default="true" id="9477c378-5665-4068-977c-e37a7133bb9d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/The500.php" afterPath="$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/The500.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/theroadgallery.com/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/theroadgallery.com/style.css" />
+    </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,107 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="The500.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="The500.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/The500.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
-              <folding />
+            <state vertical-scroll-proportion="0.7944269">
+              <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clipboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clipboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="17" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/theroadgallery.com/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1443484080609" expanded="true" signature="18802:18850" placeholder="SELECT * FRO..." />
-                <marker date="1443484080609" expanded="true" signature="81818:81902" placeholder="SELECT post_..." />
-                <marker date="1443484080609" expanded="true" signature="83799:83950" placeholder="SELECT post_..." />
-                <marker date="1443484080609" expanded="true" signature="84119:84212" placeholder="SELECT COUNT..." />
-                <marker date="1443484080609" expanded="true" signature="89939:89979" placeholder="SELECT * FRO..." />
-                <marker date="1443484080609" expanded="true" signature="90997:91065" placeholder="SELECT * FRO..." />
-                <marker date="1443484080609" expanded="true" signature="91365:91442" placeholder="SELECT ID FR..." />
-                <marker date="1443484080609" expanded="true" signature="91857:91922" placeholder="SELECT comme..." />
-                <marker date="1443484080609" expanded="true" signature="92072:92126" placeholder="SELECT meta_..." />
-                <marker date="1443484080609" expanded="true" signature="96686:96769" placeholder="SELECT comme..." />
-                <marker date="1443484080609" expanded="true" signature="116411:116452" placeholder="SELECT ID FR..." />
-                <marker date="1443484080609" expanded="true" signature="126276:126352" placeholder="SELECT post_..." />
-                <marker date="1443484080609" expanded="true" signature="127403:127538" placeholder="SELECT post_..." />
-                <marker date="1443484080609" expanded="true" signature="128634:128729" placeholder="SELECT post_..." />
-                <marker date="1443484080609" expanded="true" signature="138758:138803" placeholder="SELECT pinge..." />
-                <marker date="1443484080609" expanded="true" signature="140325:140370" placeholder="SELECT pinge..." />
-                <marker date="1443484080609" expanded="true" signature="140940:140986" placeholder="SELECT to_pi..." />
-                <marker date="1443484080609" expanded="true" signature="142417:142469" placeholder="SELECT ID FR..." />
-                <marker date="1443484080609" expanded="true" signature="144401:144541" placeholder="SELECT ID, p..." />
-                <marker date="1443484080609" expanded="true" signature="146024:146122" placeholder="SELECT ID FR..." />
-                <marker date="1443484080609" expanded="true" signature="146183:146260" placeholder="SELECT ID FR..." />
-                <marker date="1443484080609" expanded="true" signature="157719:157777" placeholder="SELECT * FRO..." />
-                <marker date="1443484080609" expanded="true" signature="161895:161935" placeholder="SELECT * FRO..." />
-                <marker date="1443484080609" expanded="true" signature="163016:163081" placeholder="SELECT comme..." />
-                <marker date="1443484080609" expanded="true" signature="163232:163286" placeholder="SELECT meta_..." />
-                <marker date="1443484080609" expanded="true" signature="163853:163972" placeholder="SELECT meta_..." />
-                <marker date="1443484080609" expanded="true" signature="183554:183699" placeholder="SELECT post_..." />
-                <marker date="1443484080609" expanded="true" signature="183758:183899" placeholder="SELECT post_..." />
-                <marker date="1443484080609" expanded="true" signature="183960:184154" placeholder="SELECT DATE_..." />
-                <marker date="1443484080609" expanded="true" signature="194882:194992" placeholder="SELECT ID FR..." />
-                <marker date="1443484080609" expanded="true" signature="196492:196548" placeholder="SELECT ${$wp..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-wp-customize-widgets.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1443484082635" expanded="true" signature="20470:20889" placeholder="..." />
-                <marker date="1443484082635" expanded="true" signature="20551:20747" placeholder="..." />
-                <marker date="1443484082635" expanded="true" signature="20785:20879" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="618" column="75" selection-start-line="618" selection-start-column="73" selection-end-line="618" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single-artists.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/theroadgallery.com-child/single-artists.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state vertical-scroll-proportion="-15.866667">
+              <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -142,8 +61,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/theroadgallery.com-child/style.css" />
         <option value="$PROJECT_DIR$/clipboard.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/The500.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/theroadgallery.com/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/The500.php" />
       </list>
     </option>
   </component>
@@ -338,10 +257,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1940" height="2110" extended-state="1" />
-    <editor active="false" />
+    <frame x="-10" y="0" width="1940" height="2110" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -383,7 +302,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -408,37 +329,37 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484080609" expanded="true" signature="18802:18850" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="81818:81902" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="83799:83950" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="84119:84212" placeholder="SELECT COUNT..." />
-            <marker date="1443484080609" expanded="true" signature="89939:89979" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="90997:91065" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="91365:91442" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="91857:91922" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="92072:92126" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="96686:96769" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="116411:116452" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="126276:126352" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="127403:127538" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="128634:128729" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="138758:138803" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140325:140370" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140940:140986" placeholder="SELECT to_pi..." />
-            <marker date="1443484080609" expanded="true" signature="142417:142469" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="144401:144541" placeholder="SELECT ID, p..." />
-            <marker date="1443484080609" expanded="true" signature="146024:146122" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="146183:146260" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="157719:157777" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="161895:161935" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="163016:163081" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="163232:163286" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="163853:163972" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="183554:183699" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183758:183899" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183960:184154" placeholder="SELECT DATE_..." />
-            <marker date="1443484080609" expanded="true" signature="194882:194992" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="196492:196548" placeholder="SELECT ${$wp..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT to_pi..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID, p..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT DATE_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ${$wp..." />
           </folding>
         </state>
       </provider>
@@ -448,9 +369,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484082635" expanded="true" signature="20470:20889" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20551:20747" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20785:20879" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -475,7 +396,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -492,37 +415,37 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484080609" expanded="true" signature="18802:18850" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="81818:81902" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="83799:83950" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="84119:84212" placeholder="SELECT COUNT..." />
-            <marker date="1443484080609" expanded="true" signature="89939:89979" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="90997:91065" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="91365:91442" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="91857:91922" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="92072:92126" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="96686:96769" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="116411:116452" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="126276:126352" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="127403:127538" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="128634:128729" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="138758:138803" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140325:140370" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140940:140986" placeholder="SELECT to_pi..." />
-            <marker date="1443484080609" expanded="true" signature="142417:142469" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="144401:144541" placeholder="SELECT ID, p..." />
-            <marker date="1443484080609" expanded="true" signature="146024:146122" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="146183:146260" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="157719:157777" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="161895:161935" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="163016:163081" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="163232:163286" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="163853:163972" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="183554:183699" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183758:183899" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183960:184154" placeholder="SELECT DATE_..." />
-            <marker date="1443484080609" expanded="true" signature="194882:194992" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="196492:196548" placeholder="SELECT ${$wp..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT to_pi..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID, p..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT DATE_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ${$wp..." />
           </folding>
         </state>
       </provider>
@@ -532,9 +455,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484082635" expanded="true" signature="20470:20889" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20551:20747" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20785:20879" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -559,7 +482,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,37 +493,37 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484080609" expanded="true" signature="18802:18850" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="81818:81902" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="83799:83950" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="84119:84212" placeholder="SELECT COUNT..." />
-            <marker date="1443484080609" expanded="true" signature="89939:89979" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="90997:91065" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="91365:91442" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="91857:91922" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="92072:92126" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="96686:96769" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="116411:116452" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="126276:126352" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="127403:127538" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="128634:128729" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="138758:138803" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140325:140370" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140940:140986" placeholder="SELECT to_pi..." />
-            <marker date="1443484080609" expanded="true" signature="142417:142469" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="144401:144541" placeholder="SELECT ID, p..." />
-            <marker date="1443484080609" expanded="true" signature="146024:146122" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="146183:146260" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="157719:157777" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="161895:161935" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="163016:163081" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="163232:163286" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="163853:163972" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="183554:183699" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183758:183899" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183960:184154" placeholder="SELECT DATE_..." />
-            <marker date="1443484080609" expanded="true" signature="194882:194992" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="196492:196548" placeholder="SELECT ${$wp..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT to_pi..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID, p..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT DATE_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ${$wp..." />
           </folding>
         </state>
       </provider>
@@ -608,9 +533,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484082635" expanded="true" signature="20470:20889" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20551:20747" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20785:20879" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -635,7 +560,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,37 +704,37 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484080609" expanded="true" signature="18802:18850" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="81818:81902" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="83799:83950" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="84119:84212" placeholder="SELECT COUNT..." />
-            <marker date="1443484080609" expanded="true" signature="89939:89979" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="90997:91065" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="91365:91442" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="91857:91922" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="92072:92126" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="96686:96769" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="116411:116452" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="126276:126352" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="127403:127538" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="128634:128729" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="138758:138803" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140325:140370" placeholder="SELECT pinge..." />
-            <marker date="1443484080609" expanded="true" signature="140940:140986" placeholder="SELECT to_pi..." />
-            <marker date="1443484080609" expanded="true" signature="142417:142469" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="144401:144541" placeholder="SELECT ID, p..." />
-            <marker date="1443484080609" expanded="true" signature="146024:146122" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="146183:146260" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="157719:157777" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="161895:161935" placeholder="SELECT * FRO..." />
-            <marker date="1443484080609" expanded="true" signature="163016:163081" placeholder="SELECT comme..." />
-            <marker date="1443484080609" expanded="true" signature="163232:163286" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="163853:163972" placeholder="SELECT meta_..." />
-            <marker date="1443484080609" expanded="true" signature="183554:183699" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183758:183899" placeholder="SELECT post_..." />
-            <marker date="1443484080609" expanded="true" signature="183960:184154" placeholder="SELECT DATE_..." />
-            <marker date="1443484080609" expanded="true" signature="194882:194992" placeholder="SELECT ID FR..." />
-            <marker date="1443484080609" expanded="true" signature="196492:196548" placeholder="SELECT ${$wp..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT pinge..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT to_pi..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID, p..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT DATE_..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1443484080609" expanded="true" signature="-1:-1" placeholder="SELECT ${$wp..." />
           </folding>
         </state>
       </provider>
@@ -817,9 +744,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443484082635" expanded="true" signature="20470:20889" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20551:20747" placeholder="..." />
-            <marker date="1443484082635" expanded="true" signature="20785:20879" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443484082635" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -844,6 +771,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8464774">
           <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -851,6 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83247155">
           <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,19 +798,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/The500.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/theroadgallery.com/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+        <state vertical-scroll-proportion="-15.866667">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/theroadgallery.com/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/theroadgallery.com-nephew/The500.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.7944269">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
