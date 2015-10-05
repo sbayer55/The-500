@@ -24,16 +24,21 @@ html {
     overflow-y: scroll;
     overflow-y: scroll;
 }
-
-
-
-
-
-
 body {
+    font:300 11px;
+    color:#222;
     font-family: sans-serif;
     margin: 0; padding: 0;
+    font-weight: 300;
+    text-align: center;
+    background-color: #FFF;
 }
+
+
+
+
+
+
 
 
 .image{
@@ -43,7 +48,6 @@ body {
 }
 .frame {
     display: block;
-    margin: 10px;
     padding: 15px;
     background-color: #ECECEC;
 }
@@ -67,33 +71,75 @@ body {
     width: 100%;
     padding: 20px 20%;
 }
-.the-500-row {
-    clear: both;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    margin: 20px 0px 40px;
 
+.collection-row {
     height: 300px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0px 20px;
+    margin: 0px;
+    border: 0px none;
 }
-.the-500-row-artist {
-    width: 20%;
-    padding: 0px 10px;
+.collection-container {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px none;
 }
-.the-500-row-item {
-    width: 20%;
+.collection-btn {
+    clear: both;
+    position: absolute;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 20px;
+    color: #FFF;
+    text-align: center;
+    line-height: 288px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.collection-btn-left {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    left: 0px;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+}
+.collection-btn-left:hover {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}
+.collection-btn-right {
+    right: 0px;
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}
+.collection-item {
+    margin: 0px 10px;
+    width: 200px;
     float: left;
 }
-
-
-
-body {
-    font:300 11px;
-    color:#222;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    background-color: #FFF;
+.collection-item-wide {
+    width: 400px;
+    float: left;
 }
+.collection-item h2 {
+}
+.collection-item p {
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
 /* clear */
 .clear:before,
 .clear:after {

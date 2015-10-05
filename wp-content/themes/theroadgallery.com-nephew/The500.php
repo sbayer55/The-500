@@ -64,64 +64,39 @@ get_header(); ?>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis maximus urna. Praesent in venenatis nisl, et interdum magna. Morbi pellentesque eleifend urna, sit amet vestibulum nulla laoreet non. Praesent fermentum nisl sit amet lectus finibus rutrum. Donec venenatis, ante quis efficitur molestie, tellus metus commodo nibh, vitae mattis est nunc non nibh. Vivamus malesuada non mauris ut sodales. Maecenas feugiat eget ante non condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 </div>
 
-<div class="the-500-row">
-    <div class="the-500-row-artist the-500-row-item">
-        <h2>Haylee Anne</h2>
-        <p>Haylee Anne is an artist living and working between Atlanta and New York. Swooning over lush National Geographic landscapes for years inspired her at an early age, alerting her subconscious that she was to be a photographer. Upon her entrance into the BFA program for Photography at Montclair State University, her intent was to hone her skills and focus successfully on travel imagery. However this training ground sparked her conscious with new ideas, themes, and image making techniques; she was inundated with a zest to create.</p>
-        <p>Now, women, water, and special processes are her main dig. It is her desire as a young artist to enhance and support feminist and bodily dialogue with images that interact with people and settings that may at times appear unnerving, but lovely.</p>
-    </div>
-    <?php if ($my_query->have_posts()) : ?>
-        <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-            <div class="the-500-row-item">
 
-                <div class="frame">
-                    <div class="wrapper">
-                        <?php the_post_thumbnail('', $image_attr); ?>
-                        <div class="frame-bottom">
-                            <h3><?php the_title(); ?></h3>
-                            <p>
-                                <?php if (strcmp(get_post_meta(get_the_ID(), 'is_sold', true), 'yes') == 0): ?>
-                                    Sold
-                                <?php else: ?>
-                                    <?php echo 'Price: '.get_post_meta(get_the_ID(), 'Price', true) ?>
-                                <?php endif; ?>
-                            </p>
+<div class="collection-row">
+    <div class="collection-container">
+        <div class="collection-item-wide">
+            <h2>Haylee Anne</h2>
+            <p>Haylee Anne is an artist living and working between Atlanta and New York. Swooning over lush National Geographic landscapes for years inspired her at an early age, alerting her subconscious that she was to be a photographer. Upon her entrance into the BFA program for Photography at Montclair State University, her intent was to hone her skills and focus successfully on travel imagery. However this training ground sparked her conscious with new ideas, themes, and image making techniques; she was inundated with a zest to create.</p>
+            <p>Now, women, water, and special processes are her main dig. It is her desire as a young artist to enhance and support feminist and bodily dialogue with images that interact with people and settings that may at times appear unnerving, but lovely.</p>
+        </div>
+        <?php if ($my_query->have_posts()) : ?>
+            <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                <div class="collection-item">
+
+                    <div class="frame">
+                        <div class="wrapper">
+                            <?php the_post_thumbnail('', $image_attr); ?>
+                            <div class="frame-bottom">
+                                <h3><?php the_title(); ?></h3>
+                                <p>
+                                    <?php if (strcmp(get_post_meta(get_the_ID(), 'is_sold', true), 'yes') == 0): ?>
+                                        Sold
+                                    <?php else: ?>
+                                        <?php echo 'Price: '.get_post_meta(get_the_ID(), 'Price', true) ?>
+                                    <?php endif; ?>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        <?php endwhile; ?>
-    <?php endif; ?>
-</div>
-
-<div class="the-500-row">
-    <div class="the-500-row-artist the-500-row-item">
-        <h2>Haylee Anne</h2>
-        <p>Haylee Anne is an artist living and working between Atlanta and New York. Swooning over lush National Geographic landscapes for years inspired her at an early age, alerting her subconscious that she was to be a photographer. Upon her entrance into the BFA program for Photography at Montclair State University, her intent was to hone her skills and focus successfully on travel imagery. However this training ground sparked her conscious with new ideas, themes, and image making techniques; she was inundated with a zest to create.</p>
-        <p>Now, women, water, and special processes are her main dig. It is her desire as a young artist to enhance and support feminist and bodily dialogue with images that interact with people and settings that may at times appear unnerving, but lovely.</p>
+            <?php endwhile; ?>
+        <?php endif; ?>
     </div>
-    <?php if ($my_query->have_posts()) : ?>
-        <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-            <div class="the-500-row-item">
-
-                <div class="frame">
-                    <div class="wrapper">
-                        <?php the_post_thumbnail('', $image_attr); ?>
-                        <div class="frame-bottom">
-                            <h3><?php the_title(); ?></h3>
-                            <p>
-                                <?php if (strcmp(get_post_meta(get_the_ID(), 'is_sold', true), 'yes') == 0): ?>
-                                    Sold
-                                <?php else: ?>
-                                    <?php echo 'Price: '.get_post_meta(get_the_ID(), 'Price', true) ?>
-                                <?php endif; ?>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <?php endwhile; ?>
-    <?php endif; ?>
+    <div class="collection-btn collection-btn-left">&laquo;</div>
+    <div class="collection-btn collection-btn-right">&raquo;</div>
 </div>
 
 
@@ -147,5 +122,34 @@ get_header(); ?>
 
 
 
+
+<div style="height: 100px;"></div>
 <?php wp_reset_query(); ?>
-<?php //get_footer(); ?>
+<?php get_footer(); ?>
+
+
+<script>
+    var foo;
+
+    $(function() {
+        var container = $('.collection-container');
+        var totalWidth = 0;
+        var parentWidth = container.parent().innerWidth();
+
+        container.children().each(function(key, value) {
+            totalWidth += $(value).outerWidth();
+        });
+        container.width(totalWidth);
+
+        $('.collection-btn-left').click(function(clicked) {
+            var myContainer = $(clicked.toElement).siblings('.collection-container');
+            var xOffset = Math.min(800, -myContainer.offset().left);
+            myContainer.animate({left: "+=" + xOffset}, 500, "linear");
+        })
+        $('.collection-btn-right').click(function(clicked) {
+            var myContainer = $(clicked.toElement).siblings('.collection-container');
+            var xOffset = Math.min(800, totalWidth + myContainer.offset().left - parentWidth);
+            myContainer.animate({left: "-=" + xOffset}, 500, "linear");
+        })
+    })
+</script>
