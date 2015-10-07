@@ -1,0 +1,115 @@
+<html>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            border: 0px none;
+        }
+        .collection-row {
+            height: 200px;
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            padding: 0px;
+            margin: 0px;
+            border: 0px none;
+        }
+        .collection-container {
+            position: relative;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            border: 0px none;
+        }
+        .collection-btn {
+            clear: both;
+            position: absolute;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0);
+            width: 20px;
+            color: #FFF;
+            text-align: center;
+            line-height: 188px;
+            -moz-user-select: -moz-none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        .collection-btn-left {
+            left: 0px;
+            background: linear-gradient(to right,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+        }
+        .collection-btn-right {
+            right: 0px;
+            background: linear-gradient(to left,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+        }
+        .collection-item {
+            background-color: #00A8FF;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .collection-item h2 {
+            color: #FFF;
+        }
+        .collection-item p {
+            color: #FFF;
+            font-weight: 100;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<body>
+    <div class="collection-row">
+        <div class="collection-container"></div>
+    </div>
+    <div class="collection-row">
+        <div class="collection-container"></div>
+        <div class="collection-btn collection-btn-left">&laquo;</div>
+        <div class="collection-btn collection-btn-right">&raquo;</div>
+    </div>
+    <div class="collection-row">
+        <div class="collection-container"></div>
+        <div class="collection-btn collection-btn-left">&laquo;</div>
+        <div class="collection-btn collection-btn-right">&raquo;</div>
+    </div>
+
+
+
+    <script>
+        var foo;
+
+        $(function() {
+            var container = $('.collection-container');
+            for (var n = 20; n > 0; n--) {
+                var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+                var div = $('<div class="collection-item"><h2>collection-item title</h2><p>This is what is in the collection-item, do not open it!</p></div>');
+                div.css({'background-color': color});
+                container.append(div);
+            }
+
+            var totalWidth = 0;
+            var parentWidth = container.parent().innerWidth();
+
+            container.children().each(function(key, value) {
+                totalWidth += $(value).outerWidth();
+            });
+            container.width(totalWidth);
+
+            $('.collection-btn-left').click(function(clicked) {
+                console.log('hi!');
+                var myContainer = $(clicked.toElement).siblings('.collection-container');
+                var xOffset = Math.min(800, -myContainer.offset().left);
+                myContainer.animate({left: "+=" + xOffset}, 500, "linear");
+            })
+            $('.collection-btn-right').click(function(clicked) {
+                var myContainer = $(clicked.toElement).siblings('.collection-container');
+                var xOffset = Math.min(800, totalWidth + myContainer.offset().left - parentWidth);
+                myContainer.animate({left: "-=" + xOffset}, 500, "linear");
+            })
+        })
+    </script>
+
+
+</body>
+</html>
