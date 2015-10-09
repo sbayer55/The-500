@@ -76,8 +76,8 @@ get_header(); ?>
             <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
                 <div class="collection-item">
 
-                    <div class="frame">
-                        <div class="wrapper">
+                    <div class="img-frame">
+                        <div class="img-wrapper">
                             <?php the_post_thumbnail('', $image_attr); ?>
                             <div class="frame-bottom">
                                 <h3><?php the_title(); ?></h3>
@@ -101,6 +101,74 @@ get_header(); ?>
 
 
 
+<div class="collection-row">
+    <div class="collection-container">
+        <div class="collection-item-wide">
+            <h2>Haylee Anne</h2>
+            <p>Haylee Anne is an artist living and working between Atlanta and New York. Swooning over lush National Geographic landscapes for years inspired her at an early age, alerting her subconscious that she was to be a photographer. Upon her entrance into the BFA program for Photography at Montclair State University, her intent was to hone her skills and focus successfully on travel imagery. However this training ground sparked her conscious with new ideas, themes, and image making techniques; she was inundated with a zest to create.</p>
+            <p>Now, women, water, and special processes are her main dig. It is her desire as a young artist to enhance and support feminist and bodily dialogue with images that interact with people and settings that may at times appear unnerving, but lovely.</p>
+        </div>
+        <?php if ($my_query->have_posts()) : ?>
+            <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                <div class="collection-item">
+
+                    <div class="img-frame">
+                        <div class="img-wrapper">
+                            <?php the_post_thumbnail('', $image_attr); ?>
+                            <div class="frame-bottom">
+                                <h3><?php the_title(); ?></h3>
+                                <p>
+                                    <?php if (strcmp(get_post_meta(get_the_ID(), 'is_sold', true), 'yes') == 0): ?>
+                                        Sold
+                                    <?php else: ?>
+                                        <?php echo 'Price: '.get_post_meta(get_the_ID(), 'Price', true) ?>
+                                    <?php endif; ?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+    </div>
+    <div class="collection-btn collection-btn-left">&laquo;</div>
+    <div class="collection-btn collection-btn-right">&raquo;</div>
+</div>
+
+
+<div class="collection-row">
+    <div class="collection-container">
+        <div class="collection-item-wide">
+            <h2>Haylee Anne</h2>
+            <p>Haylee Anne is an artist living and working between Atlanta and New York. Swooning over lush National Geographic landscapes for years inspired her at an early age, alerting her subconscious that she was to be a photographer. Upon her entrance into the BFA program for Photography at Montclair State University, her intent was to hone her skills and focus successfully on travel imagery. However this training ground sparked her conscious with new ideas, themes, and image making techniques; she was inundated with a zest to create.</p>
+            <p>Now, women, water, and special processes are her main dig. It is her desire as a young artist to enhance and support feminist and bodily dialogue with images that interact with people and settings that may at times appear unnerving, but lovely.</p>
+        </div>
+        <?php if ($my_query->have_posts()) : ?>
+            <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                <div class="collection-item">
+
+                    <div class="img-frame">
+                        <div class="img-wrapper">
+                            <?php the_post_thumbnail('', $image_attr); ?>
+                            <div class="frame-bottom">
+                                <h3><?php the_title(); ?></h3>
+                                <p>
+                                    <?php if (strcmp(get_post_meta(get_the_ID(), 'is_sold', true), 'yes') == 0): ?>
+                                        Sold
+                                    <?php else: ?>
+                                        <?php echo 'Price: '.get_post_meta(get_the_ID(), 'Price', true) ?>
+                                    <?php endif; ?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+    </div>
+    <div class="collection-btn collection-btn-left">&laquo;</div>
+    <div class="collection-btn collection-btn-right">&raquo;</div>
+</div>
 
 
 

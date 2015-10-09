@@ -43,7 +43,7 @@
 
 </script>
 
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8">
 
 <style>
 .omsc-toggle-title, .omsc-toggle-title:hover, .omsc-toggle.omsc-expanded .omsc-toggle-title{
@@ -142,4 +142,5 @@ article.category-artwork {
 
 <!-- wrapper -->
 <div class="wrapper">
+  <h1>Here:<?php bloginfo('stylesheet_url') ?></h1>
 			
